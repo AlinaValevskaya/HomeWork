@@ -13,7 +13,7 @@ public class Test {
         qmass[1] = new Question("2+2= ", new Option[4]);
         qmass[2] = new Question("8*8=", new Option[4]);
 
-        qmass[1].option[0] = new Option("", false);    // варианты ответа на первый вопрос
+        qmass[1].option[0] = new Option("", false);      // варианты ответа на первый вопрос
         qmass[1].option[1] = new Option("3", false);
         qmass[1].option[2] = new Option("4", true);
         qmass[1].option[3] = new Option("5", false);
